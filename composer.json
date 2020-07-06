@@ -16,14 +16,18 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "netojose/laravel-bootstrap-4-forms": "^3.0",
-        "santigarcor/laratrust": "^6.1"
+        "santigarcor/laratrust": "^6.1",
+        "watson/active": "^5.0",
+        "yajra/laravel-datatables-oracle": "^9.10"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.9.1",
         "mockery/mockery": "^1.3.1",
         "nunomaduro/collision": "^4.1",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^8.5",
+        "protoqol/prequel": "^1.22",
+        "sven/artisan-view": "^3.3"
     },
     "config": {
         "optimize-autoloader": true,
