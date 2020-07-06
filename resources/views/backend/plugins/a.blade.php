@@ -1,0 +1,3 @@
+@push('styles')
+    a
+@endpush
