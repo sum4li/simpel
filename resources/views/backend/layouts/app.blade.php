@@ -30,7 +30,8 @@
                         ];
                     @endphp
                     <div class="section-body">
-                        <x-table.full-width card-header="hehe" :table-header="$tableHeader" :table-body="$tableBody"></x-table-full-width>
+                        @yield('content')
+                        {{-- <x-table.full-width card-header="hehe" :table-header="$tableHeader" :table-body="$tableBody"></x-table-full-width> --}}
                     </div>
                 </section>
             </div>

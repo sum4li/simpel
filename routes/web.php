@@ -26,6 +26,9 @@ Route::middleware(['auth'])->group(function(){
     })->name('admin.dashboard');
 
     Route::get('logout', 'Auth\LoginController@logout')->name('admin.logout');
+
+    Route::resource('customer', 'CustomerController');
+    Route::resource('product', 'ProductController');
 });
 
 Route::get('admin', 'Auth\LoginController@showLoginForm')->name('admin.show_login');
